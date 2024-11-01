@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply relative max-w-sm rounded-lg bg-white shadow-custom lg:flex lg:max-w-[730px];
+}
+.card-img {
+  @apply h-[200px] w-full rounded-t-lg object-cover lg:h-auto lg:w-[280px] lg:rounded-l-lg;
+}
+.card-content {
+  @apply px-8 pb-5 pt-9 lg:px-10 lg:py-8;
+}
+
+.btn-share {
+  @apply flex size-8 items-center justify-center rounded-full bg-gray-100;
+}
